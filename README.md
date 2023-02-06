@@ -30,11 +30,6 @@ Users should be able to:
 ![](screenshots/product-prev-desktop-screen.png)
 ![](screenshots/product-prev-mobile-screen.png)
 
-### Links
-
-- Solution URL: [Solution](https://github.com/maudlinmandrake/product-preview-card-component)
-- Live Site URL: [Live](https://maudlinmandrake.github.io/product-preview-card-component)
-
 ## My process
 
 ### Built with
@@ -50,11 +45,14 @@ Use this section to recap over some of your major learnings while working throug
 
 ```html
 <img
-	srcset="images/image-product-desktop.jpg 600w, images/image-product-mobile.jpg 686w"
-	sizes="(max-width: 600px) 686px, 300px"
-	src="images/image-product-desktop.jpg"
-	alt="A bottle of perfume surrounded by foliage"
->
+  srcset="
+    images/image-product-desktop.jpg 600w,
+    images/image-product-mobile.jpg  686w
+  "
+  sizes="(max-width: 600px) 686px, 300px"
+  src="images/image-product-desktop.jpg"
+  alt="A bottle of perfume surrounded by foliage"
+/>
 ```
 
 ### Useful resources
@@ -64,6 +62,4 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Author
 
-- Website - [Jenny Mikac](https://www.jennymikac.com)
-- Frontend Mentor - [@ymaudlinmandrake](https://www.frontendmentor.io/maudlinmandrake)
-- Twitter - [@jennymikac](https://www.twitter.com/jennymikac)
+Danila Popow
